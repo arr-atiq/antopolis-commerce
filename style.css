@@ -36,9 +36,19 @@
     font-size: 50px;
     font-weight: 400;
 }
-@media screen and (max-width: 411px){
+@media screen and (max-width: 540px){
     #nav-ul{
-        
+        width: 100%;
+    }
+    #nav-ul li{
+        background-color: gray;
+    }
+    #nav-ul li a{
+        color: white;
+        text-align: center;
+        background-color: darkslategray;
+        margin: 10px 5px 10px 5px;
+        box-shadow: 5px 5px 15px lightgray;
     }
 }
 .btn0{
